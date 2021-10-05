@@ -1,0 +1,108 @@
+.root{
+    -fx-background-color: grey;
+}
+
+.text-field{
+	 
+	 -fx-background-color: #424242;
+	 -fx-text-fill: white;
+}
+
+
+.text-area .content{
+	 
+	 -fx-background-color: #424242;
+	 -fx-text-fill: white;
+}
+
+.text-area{
+
+	 -fx-text-fill: white;
+}
+
+
+.table-view{
+   -fx-background-color: transparent;
+}
+
+.button{
+	-fx-background-color: black;
+	-fx-text-fill: white;
+	-fx-border-color: white;
+}
+.button-castle{
+	-fx-background-color: transparent;
+	-fx-background-image: url("/fort.png");
+	-fx-background-size: 100px 100px;
+	-fx-pref-height:100px;
+	-fx-pref-width:100px;
+	-fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+	-fx-border-color: transparent;
+	
+}
+
+.button-war{
+	-fx-background-color: transparent;
+	-fx-border-color: transparent;
+	-fx-background-image: url("/war.png");
+	-fx-background-size: 150px 100px;
+	-fx-pref-height:100px;
+	-fx-pref-width:150px;
+	-fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+	
+	
+}
+
+.button-cards1{
+	-fx-background-color: transparent;
+	-fx-background-image: url("/card.jpg");
+	-fx-background-size: 60px 100px;
+	-fx-pref-height:100px;
+	-fx-pref-width:60px;
+	-fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+	
+	
+}
+
+.button-cards2{
+	-fx-background-color: transparent;
+	-fx-background-image: url("/card.jpg");
+	-fx-background-size: 60px 100px;
+	-fx-pref-height:100px;
+	-fx-pref-width:60px;
+	-fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+	
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(#131313 0%, #424141 100%);
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: white;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #616161;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #424242;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */  
+}
